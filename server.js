@@ -27,8 +27,8 @@ app.get('/',(req,res)=>{
 //======================================================
 app.use('/membro',membros);
 app.use('/voluntario',voluntario);
-const PORT = process.env.PORT || 8081;
 
+const PORT = process.env.PORT || 8081;
 app.listen(PORT,()=>{
     console.log("servidor rodando:port:8081");
 }); 
